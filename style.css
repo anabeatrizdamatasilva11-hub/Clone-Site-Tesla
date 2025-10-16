@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+.center{
+    min-width: 1220px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+section.main{
+    width: 100%;
+    min-height: 100%;
+    background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-S-Hero-Desktop-US.png');
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    position: relative;
+    top: -60px;
+}
+
+.logo img{
+    width: 230px;
+}
+
+.menu{ margin-top: 15px}
+   
+.menu a{
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 3px 5px;
+}
+
+.menu a:hover{
+    border-radius: 5px;
+    background-color: rgba(252, 154, 154, 0.224);
+}
+
+.title{
+    text-align: center;
+}
+
+.title h1{color: black;font-size: 45px;}
+.title p{color:#ccc;margin-top: 10px;}
+
+.title p a{color: white;}
+
+
+.btn{
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+
+.btn a{
+    display:inline-block;
+    padding: 8px 20px;
+    margin: 0 15px;
+    background-color: #333;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+}
